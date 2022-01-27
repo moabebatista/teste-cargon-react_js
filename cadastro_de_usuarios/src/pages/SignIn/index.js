@@ -2,7 +2,7 @@ import { Form } from "@rocketseat/unform";
 import React from "react";
 import { useDispatch } from "react-redux";
 import * as Yup from "yup";
-import InputWrapper from "../../components/Forms/InputGroup";
+import InputWrapper from "../../components/Formularios/InputGroup";
 import { signInRequest } from "../../store/modules/auth/actions";
 
 const schema = Yup.object().shape({
@@ -32,7 +32,8 @@ export default function SignIn() {
         inputType="password"
         inputPlaceholder="*********"
       />
-      <button type="submit">Entrar no sistema</button>
+      <button type="submit">Entrar</button>
     </Form>
   );
 }
+

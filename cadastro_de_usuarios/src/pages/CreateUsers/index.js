@@ -7,7 +7,7 @@ import { Button } from "reactstrap";
 import { Link } from "react-router-dom";
 import { FaChevronLeft } from "react-icons/fa";
 
-import UserFormGroup from "../../components/Forms/UserFormGroup";
+import UserFormGroup from "../../components/Formularios/UserFormGroup";
 
 import { registerUserRequest } from "../../store/modules/user/actions";
 
